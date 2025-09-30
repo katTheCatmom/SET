@@ -7,19 +7,41 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="container">
+        <header>
+            <a id="logo" href="index.html">Logo</a>
+            <p>- Reise gjort enkelt</p>
+        </header>
 
-    <header></header>
+        <main>
+            <h1>Hvor ønsker du å reise?</h1>
 
-    <main>
-        <h1>Hvor ønsker du å reise?</h1>
+            <form action="" method="get">
+                <label for="start">Fra: 
+                <input type="text" id="start" placeholder="Hvor ønsker du å reise fra?">
+                </label>
+                <label for="end">Til: 
+                <input type="text" id="end" placeholder="Hvor ønsker du å reise til?">
+                </label>
+                <input id="search" type="submit" value="Finn Reise">
+            </form>
+        </main>
 
-        <form>
-            <label for="start">Fra: </label>
-            <input type="text" id="start">
-
-            <label for="end">Til: </label>
-            <input type="text" id="end">
-        </form>
-    </main>
+        <section id="search-results">
+            <h2>Søkeresultat</h2>
+            <article class="result">
+                <p>Her skal det kalles på treffene som matcher søk</p>
+            </article>
+            <article class="result">
+                <p>Her skal det kalles på treffene som matcher søk</p>
+            </article>
+            <article class="result">
+                <p>Her skal det kalles på treffene som matcher søk</p>
+            </article>
+            <article class="result">
+                <p>Her skal det kalles på treffene som matcher søk</p>
+            </article>
+        </section>
+    </div>
 </body>
 </html>
